@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Mate-Regular.ttf.ttx, Mate-Italic.ttf.ttx, src/Mate-Regular.otf.ttx,
+  src/Mate-Italic.otf.ttx, src/Mate-Regular-TTF.sfd, src/Mate-Italic-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
